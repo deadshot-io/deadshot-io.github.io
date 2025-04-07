@@ -1,0 +1,177 @@
+
+        body {
+            font-family: "Roboto", sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #ffffff;
+        }
+
+        header {
+            background-color: #442d21;
+            color: white;
+            padding: 1px;
+            text-align: center;
+        }
+
+        header img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        nav {
+            background-color: #442d21;
+            padding: 10px;
+            text-align: center;
+			font-size: 19px;
+            
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 10px;
+            margin: 0 10px;
+            transition: color 0.3s ease;
+        }
+
+        nav a:hover {
+            color: #ffd700;
+        }
+
+        section {
+            padding: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+        }
+
+        iframe {
+            width: 80%;
+            height: 700px;
+			-webkit-box-shadow: 0px 1px 16px 9px rgba(0,0,0,0.88);
+-moz-box-shadow: 0px 1px 16px 9px rgba(0,0,0,0.88);
+box-shadow: 0px 1px 16px 9px rgba(0,0,0,0.88);
+            border-radius: 10px;
+            margin-bottom: 20px;
+        }
+
+        .thumbnails {
+            width: 18%;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: flex-start;
+	    text-align: center;	
+        }
+
+        .thumbnail {
+		box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;	
+            margin: 0 10px 10px 0;
+            width: 319px;
+            max-width: 100%;
+            height: auto;
+            overflow: hidden;
+           text-align: center;
+          
+        }
+
+        .thumbnail img {
+            width: 100%;
+            height: auto;
+            object-fit: cover;
+        }
+
+        .description {
+		
+            width: 85%;
+            text-align: center;
+			margin-bottom: 20px;
+            margin: 0 auto; /* Center the description section */
+        }
+
+        .description-area {
+			
+            width: 85%;
+            margin: 10px auto; /* Center the description area */
+			
+            padding: 20px;
+            border: 0px solid #000; /* Black border */
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Shadow effect */
+            color: #000; /* Black text color */
+        }
+
+        .description-area h2 {
+            color: #000; /* Black title color */
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+           
+            bottom: 0;
+            width: 99%;
+        }
+		
+
+
+.fadein img{
+transition: 1s ease;
+}
+
+.fadein img:hover{
+
+-webkit-transform: scale(0.8);
+-ms-transform: scale(0.8);
+transform: scale(0.8);
+transition: 1s ease;
+}
+	
+
+
+/* CSS */
+.button-29 {
+  align-items: center;
+  appearance: none;
+  background-image: radial-gradient(100% 100% at 100% 0, #5adaff 0, #5468ff 100%);
+  border: 0;
+  border-radius: 6px;
+  box-shadow: rgba(45, 35, 66, .4) 0 2px 4px,rgba(45, 35, 66, .3) 0 7px 13px -3px,rgba(58, 65, 111, .5) 0 -3px 0 inset;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: "JetBrains Mono",monospace;
+  height: 48px;
+  justify-content: center;
+  line-height: 1;
+  list-style: none;
+  overflow: hidden;
+  padding-left: 16px;
+  padding-right: 16px;
+  position: relative;
+  text-align: left;
+  text-decoration: none;
+  transition: box-shadow .15s,transform .15s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  will-change: box-shadow,transform;
+  font-size: 18px;
+}
+
+.button-29:focus {
+  box-shadow: #3c4fe0 0 0 0 1.5px inset, rgba(45, 35, 66, .4) 0 2px 4px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+}
+
+.button-29:hover {
+  box-shadow: rgba(45, 35, 66, .4) 0 4px 8px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+  transform: translateY(-2px);
+}
+
+.button-29:active {
+  box-shadow: #3c4fe0 0 3px 7px inset;
+  transform: translateY(2px);
+}
